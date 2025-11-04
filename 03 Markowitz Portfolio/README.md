@@ -63,7 +63,7 @@ Displays weight stability across bootstrap resamples, highlighting robust alloca
 ### Cumulative Return Comparison
 Compares the growth of an equal-weighted portfolio vs. the optimized portfolio.
 
-![Cumulative Return](figures/cumulative_return_comparison.png)
+![Cumulative Return](figures/portfolio_comparison.png)
 
 
 ---
