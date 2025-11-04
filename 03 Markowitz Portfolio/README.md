@@ -48,6 +48,24 @@ The **shrunk covariance matrix** slightly improves stability and Sharpe ratio, a
 The optimized (shrunk) portfolio allocates higher weights to assets offering the best balance between **expected return and correlation**, such as NVDA and JNJ.  
 It achieves **over 2.5× the growth** of an equal-weighted portfolio across the same 2020–2025 horizon, showing the impact of diversification and mathematical optimization.
 
+## 📊 Visual Results
+
+### Efficient Frontier
+Shows the trade-off between risk and expected return for different portfolio combinations.
+
+![Efficient Frontier](figures/efficient_frontier.png)
+
+### Bootstrap Weights Distribution
+Displays weight stability across bootstrap resamples, highlighting robust allocation patterns.
+
+![Bootstrap Weights](figures/bootstrap_weights_box.png)
+
+### Cumulative Return Comparison
+Compares the growth of an equal-weighted portfolio vs. the optimized portfolio.
+
+![Cumulative Return](figures/cumulative_return_comparison.png)
+
+
 ---
 
 ## **Why This Stage Matters**
