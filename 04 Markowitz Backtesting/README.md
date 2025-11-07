@@ -44,7 +44,7 @@ This stage is about **truth-testing theory** — not creating new models, but ob
 
 ### 📉 Drawdowns
 
-![Drawdowns](figuress/Drawdowns.png)
+![Drawdowns](figures/Drawdowns.png)
 
 
 ---
