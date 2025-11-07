@@ -38,6 +38,15 @@ This stage is about **truth-testing theory** — not creating new models, but ob
 | **Sortino Ratio** | Slightly higher | — | Better downside performance |
 | **Max Drawdown** | Deeper | — | More volatile but faster recovery |
 
+### 📈 Cumulative Returns
+
+![Cumulative Returns](figures/Cumulative_return.png)
+
+### 📉 Drawdowns
+
+![Drawdowns](figuress/Drawdowns.png)
+
+
 ---
 
 ## 🧩 Key Insight — *Regime Sensitivity*
