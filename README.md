@@ -6,6 +6,17 @@ from Python foundations to full portfolio optimization, backtesting, and regress
 Built using **NumPy**, **Pandas**, **Matplotlib**, **SciPy**, and real-world market data via **yfinance**.  
 Each stage is coded and documented in **Google Colab**, blending analytical reasoning with intuitive explanation.
 
+### Abstract
+A 10-stage progression through quantitative finance — from simulation and diversification 
+to portfolio optimization, backtesting, and regression. Each module demonstrates 
+core mathematical and computational concepts through reproducible Python notebooks.
+
+
+## 📖 Notes
+This repository reflects an ongoing learning journey rather than finished research. 
+While I continue to formalize my mathematical background, each project is 
+implemented and verified through simulation, code, and data.
+
 ---
 
 ## 📊 Overview
@@ -116,5 +127,21 @@ to connect the beauty of theory with the clarity of practice.
 
 ---
 
+## 🧩 For Reviewers
+I’m currently seeking feedback on:
+- Technical accuracy of portfolio optimization and regression stages  
+- Code clarity and documentation quality  
+- Suggestions for extending this into a research-level study  
+
+Please feel free to open an Issue or contact me via email at virajnigwekar@gmail.com.
+
 **Author:** Viraj Nigwekar  
 **Focus:** Quantitative Finance · Python · Optimization · Regression · Research
+
+## ⚙️ How to Reproduce
+
+Clone the repository and open the notebooks in Google Colab:
+
+```bash
+git clone https://github.com/Viraj-Nigwekar/Quant-Portfolio.git
+
