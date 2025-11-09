@@ -53,18 +53,6 @@ While formal derivations (e.g., Itô’s Lemma, optimization proofs) will be stu
 | Visualization | Matplotlib · Seaborn · Plotly |
 | Research & Docs | Google Colab · Markdown · Jupyter · Medium Blogs |
 | Version Control | Git + GitHub |
-
----
-
-## ⚙️ How to Reproduce
-
-Clone the repository and open the notebooks in **Google Colab**:
-
-```bash
-git clone https://github.com/Viraj-Nigwekar/Quant-Portfolio.git
-
-
-
 ---
 
 ## 🧩 For Reviewers
@@ -93,3 +81,10 @@ and to connect programming with financial insight.
 
 **Author:** Viraj Nigwekar  
 **Focus:** Quantitative Finance · Optimization · Regression · Research
+
+## ⚙️ How to Reproduce
+
+Clone the repository and open the notebooks in **Google Colab**:
+
+```bash
+git clone https://github.com/Viraj-Nigwekar/Quant-Portfolio.git
