@@ -24,9 +24,9 @@ Builds the Black–Litterman **prior**:
 - computes log returns and the annualized covariance matrix  
 - defines a market portfolio (equal-weight proxy)  
 - computes implied equilibrium excess returns  
-  \[
+  \$[
   \pi = \lambda \Sigma w_{mkt}
-  \]
+  \$]
 
 This gives the neutral starting point that BL uses before incorporating any
 investor views.
@@ -49,11 +49,11 @@ required mathematical structure.
 ### **03_Black_Litterman_Posterior.ipynb**
 Combines the prior and the views to compute **posterior expected returns** using:
 
-\[
+\$[
 \mu_{BL} =
 \Big( (\tau \Sigma)^{-1} + P^T \Omega^{-1} P \Big)^{-1}
 \Big( (\tau \Sigma)^{-1} \pi + P^T \Omega^{-1} Q \Big)
-\]
+\$]
 
 Outputs include:
 - posterior expected return vector  
