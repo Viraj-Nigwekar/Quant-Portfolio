@@ -61,19 +61,20 @@ The portfolios are evaluated using:
 
 ### Cumulative Performance
 
-[Cumulative Performance](Visuals/cumulative_performance.png)
+(![Cumulative Performance](Visuals/cumulative_performance.png)
+)
 
 ---
 
 ### Drawdown Comparison
 
-[Drawdown Comparison](Visuals/drawdown_comparison.png)
+(![Drawdown Comparison](Visuals/drawdown_comparison.png))
 
 ---
 
 ### Risk Contributions (ERC Portfolio)
 
-[Risk Contributions](Visuals/risk_contributions.png)
+(![Risk Contributions](Visuals/risk_contributions.png))
 
 ---
 
