@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Quant-Portfolio Banner" width="100%">
+  <img src="assets/Banner.png" alt="Quant-Portfolio Banner" width="100%">
 </p>
 # 📈 Quant-Portfolio
 ### Learn Quantitative Finance Through Implementation
