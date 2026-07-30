@@ -1,117 +1,178 @@
-# 📈 Quantitative Finance Learning Journey
+# 📈 Quant-Portfolio
+### Learn Quantitative Finance Through Implementation
 
-A structured and rigorous progression through quantitative finance — 
-from Python fundamentals to multi-asset simulation, portfolio optimization, 
-backtesting, and regression-based factor analysis.  
-All work is implemented in Google Colab using NumPy, Pandas, Matplotlib, SciPy, 
-and real market data via `yfinance`.
+A structured, implementation-first journey through **quantitative finance** using Python.
 
-This repository documents my growth as a student working toward mathematical 
-maturity, statistical intuition, and research-level modeling skills.
+This repository is a collection of educational Jupyter notebooks that progressively introduce the mathematical and computational foundations of modern portfolio management. Rather than presenting isolated algorithms, each notebook builds on previous concepts to develop intuition through simulation, visualization, and empirical analysis using real market data.
+
+Whether you're a student beginning quantitative finance or someone looking to understand portfolio optimization from first principles, this repository aims to bridge the gap between theory and implementation.
 
 ---
 
-## 🧾 Abstract
-A 10-stage progression through quantitative finance, covering stochastic 
-simulations, diversification, portfolio construction, optimization techniques, 
-backtesting frameworks, and regression/factor analysis (CAPM, FF3).  
-Each stage is supported by reproducible Python notebooks, structured analysis, 
-and clear documentation.
+## Repository Highlights
 
-I am currently formalizing my mathematical foundations through MIT OCW 
-(Linear Algebra, Probability, Optimization) and other university-level sources, 
-while beginning early research work in robust portfolio optimization.
-
----
-
-## 📊 Overview
-
-The goal of this repository is to understand how mathematical ideas translate 
-into practical financial modeling — how randomness evolves, how risk is 
-quantified, and how portfolios can be constructed, tested, and evaluated using 
-real data.
-
-While advanced theoretical tools (e.g., stochastic calculus, convex analysis) 
-will be studied formally in the future, the present focus is on clarity, 
-intuition, and empirical rigor through simulation and validation.
-
-This project reflects an ongoing journey — not a finished result — and is 
-continuously improving as I study more mathematics and deepen my research skills.
+- 📊 Portfolio Optimization
+- 📈 Mean-Variance (Markowitz) Theory
+- 🎲 Monte Carlo Simulation
+- 📉 Risk & Return Analysis
+- 🧠 Black-Litterman Allocation
+- ⚖️ Risk Parity
+- 📋 Portfolio Backtesting
+- 📐 CAPM Regression
+- 📚 Fama-French Three-Factor Model
+- 🧮 Numerical Computing with NumPy & Pandas
+- 📊 Data Visualization
 
 ---
 
-## 🧩 Stage-Wise Progression
+# Learning Roadmap
 
-| Stage | Focus                                   | Core Topics |
-|-------|------------------------------------------|-------------|
-| 1     | Python Foundations                       | Loops, functions, I/O |
-| 2     | Automation & Scripting                   | Tools from *Automate the Boring Stuff* |
-| 3     | Numerical Computing (NumPy)              | Arrays, vectorization, random sampling |
-| 4     | Visualization & Data Analysis            | Time-series, returns, volatility |
-| 5     | Single-Stock Monte Carlo Simulation      | GBM, randomness, compounding |
-| 6     | Multi-Stock Simulation & Diversification | Correlation, cross-asset behavior |
-| 7     | Portfolio Statistics                     | Covariance, correlation, diversification metrics |
-| 8     | Markowitz Portfolio Optimization         | Efficient Frontier, Sharpe ratio, Ledoit–Wolf shrinkage |
-| 9     | Backtesting & Evaluation                 | IS/OOS testing, drawdowns, regime sensitivity |
-| 10    | Regression & Factor Modeling             | CAPM, Fama–French 3-Factor (FF3) |
-| 11    | Research Phase (Current)                 | Robust portfolio optimization, shrinkage estimators, stability diagnostics |
+This repository follows a structured progression rather than a collection of unrelated notebooks.
 
----
+| Stage | Topic |
+|--------|-------|
+| 1 | Python Foundations |
+| 2 | Automation & Scripting |
+| 3 | Numerical Computing with NumPy |
+| 4 | Financial Data Analysis |
+| 5 | Monte Carlo Simulation |
+| 6 | Multi-Asset Simulation |
+| 7 | Portfolio Statistics |
+| 8 | Markowitz Portfolio Optimization |
+| 9 | Portfolio Backtesting |
+| 10 | CAPM & Fama-French Factor Models |
+| 11 | Research & Robust Portfolio Optimization |
 
-## 🧮 Tech Stack
-
-**Programming:** Python · NumPy · Pandas · Matplotlib · SciPy · yfinance  
-**Optimization:** SLSQP · Quadratic Programming Concepts  
-**Regression / Factors:** Statsmodels · scikit-learn (CAPM/FF3)  
-**Visualization:** Matplotlib · Plotly  
-**Research & Docs:** Google Colab · Markdown · LaTeX  
-**Version Control:** Git + GitHub
+Each notebook introduces new mathematical ideas while reinforcing concepts from earlier stages.
 
 ---
 
-## 📚 Mathematical Foundations (Current)
+# Project Gallery
 
-I am actively formalizing my mathematical background through:
+## Efficient Frontier
 
-- **MIT OCW 18.06 — Linear Algebra (Gilbert Strang)**
-- **MIT OCW Probability & Statistics**
-- **Introductory Optimization Theory**
-- **Statistical Learning & Regression Concepts**
+![Efficient Frontier](03%20Markowitz%20Portfolio/figures/efficient_frontier.png)
 
-My aim is to gradually shift from applied intuition → deeper mathematical rigor 
-as I build toward university-level coursework.
+Visualizing the risk-return trade-off and the efficient frontier under Modern Portfolio Theory.
 
 ---
 
-## 🧭 Vision
+## Portfolio Comparison
 
-To understand the mathematics of uncertainty,  
-to build robust and interpretable financial models,  
-and to connect programming with rigorous quantitative thinking.
+![Portfolio Comparison](03%20Markowitz%20Portfolio/figures/portfolio_comparison.png)
 
-This repository represents my attempt to learn systematically, 
-communicate clearly, and build a strong research foundation with humility.
+Comparing different portfolio construction strategies across risk and expected return.
 
 ---
 
-## 🧩 For Reviewers
+## Risk Parity
 
-I welcome professional feedback on:
+![Risk Contributions](07%20Risk%20Parity/Visuals/risk_contributions.png)
 
-- Technical accuracy of optimization and regression methods  
-- Structure and clarity of code/notebooks  
-- Suggestions for extending the work into formal research  
-- Guidance on improving mathematical rigor  
-
-If you would like to reach out, collaborate, or review my portfolio:
-
-📩 **Email:** *virajnigwekar@gmail.com*
+Understanding how individual assets contribute to total portfolio risk under a Risk Parity framework.
 
 ---
 
-## ⚙️ How to Reproduce
+# What You'll Learn
 
-Clone the repository and open the notebooks in Google Colab:
+Topics covered throughout the repository include:
+
+- Financial return calculations
+- Volatility estimation
+- Covariance & correlation
+- Diversification
+- Monte Carlo simulation
+- Geometric Brownian Motion
+- Efficient Frontier construction
+- Sharpe Ratio optimization
+- Ledoit-Wolf covariance shrinkage
+- Portfolio backtesting
+- Drawdown analysis
+- CAPM regression
+- Fama-French factor models
+- Portfolio performance evaluation
+
+---
+
+# Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Plotly
+- SciPy
+- Statsmodels
+- scikit-learn
+- yfinance
+- Google Colab
+
+---
+
+# Educational Philosophy
+
+This repository emphasizes **understanding before optimization**.
+
+Instead of treating quantitative finance as a collection of formulas, each notebook focuses on explaining:
+
+- why a model exists,
+- the assumptions behind it,
+- how it is implemented,
+- when it works,
+- and where its limitations lie.
+
+The objective is not simply to reproduce results, but to develop mathematical intuition through experimentation and visualization.
+
+---
+
+# Current Research Direction
+
+Alongside these educational notebooks, I am exploring research problems in robust portfolio optimization, with a particular interest in improving portfolio stability under estimation uncertainty.
+
+The notebooks in this repository provide the conceptual foundation for that ongoing work.
+
+---
+
+# Who Is This Repository For?
+
+This project is intended for:
+
+- Students learning quantitative finance
+- Undergraduate finance & mathematics students
+- Python programmers interested in finance
+- Self-learners
+- Anyone interested in portfolio optimization and asset pricing
+
+---
+
+# Getting Started
+
+Clone the repository
 
 ```bash
 git clone https://github.com/Viraj-Nigwekar/Quant-Portfolio.git
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Open the notebooks using Jupyter Notebook or Google Colab.
+
+---
+
+# Feedback
+
+Suggestions, corrections, and constructive feedback are always welcome.
+
+If you notice an error, have ideas for improvement, or would like to discuss quantitative finance, feel free to open an Issue or reach out.
+
+📧 **virajnigwekar@gmail.com**
+
+---
+
+# License
+
+Released under the MIT License.
