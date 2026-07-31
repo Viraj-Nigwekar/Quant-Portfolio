@@ -1,7 +1,9 @@
 <p align="center">
   <img src="assets/Banner.png" alt="Quant-Portfolio Banner" width="100%">
 </p>
-# 📈 Quant-Portfolio
+
+
+
 ### Learn Quantitative Finance Through Implementation
 
 A structured, implementation-first journey through **quantitative finance** using Python.
