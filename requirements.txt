@@ -1,0 +1,7 @@
+name=requirements.txt
+moviepy==1.0.3
+imageio==2.26.0
+imageio-ffmpeg==0.5.0
+numpy==1.26.0
+Pillow==10.0.0
+tqdm==4.65.0
