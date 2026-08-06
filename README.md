@@ -2,8 +2,6 @@
   <img src="assets/Banner.png" alt="Quant-Portfolio Banner" width="100%">
 </p>
 
-# Quant Portfolio
-
 <p align="center">
   <img src="assets/portfolio_showcase.gif" alt="Quant Portfolio Showcase" width="900">
 </p>
