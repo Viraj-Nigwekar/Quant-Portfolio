@@ -2,6 +2,22 @@
   <img src="assets/Banner.png" alt="Quant-Portfolio Banner" width="100%">
 </p>
 
+# Quant Portfolio
+
+<p align="center">
+  <img src="assets/portfolio_showcase.gif" alt="Quant Portfolio Showcase" width="900">
+</p>
+
+A curated collection of quantitative finance projects covering:
+
+- Portfolio Optimization
+- Risk Analysis
+- Factor Models
+- Financial Machine Learning
+- Backtesting
+
+...
+
 
 
 ### Learn Quantitative Finance Through Implementation
